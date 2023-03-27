@@ -1,7 +1,7 @@
 module.exports = {
-  HOST: "dblokal",
-  USER: "online" /* MySQL User */,
-  PASSWORD: "1234qwer1234" /* MySQL Password */,
+  HOST: "103.23.199.60",
+  USER: "rio" /* MySQL User */,
+  PASSWORD: "peler2717" /* MySQL Password */,
   DB: "test_node_mobilkudotcom" /* MySQL Database */,
   dialect: "mysql",
   pool: {
