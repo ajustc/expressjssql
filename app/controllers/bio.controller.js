@@ -4,7 +4,7 @@ const sharp = require("sharp");
 
 const fs = require("fs");
 const path = require("path");
-const dirName = path.dirname(require.main.filename);
+const dirName = path.dirname(path.join(__dirname, '../../') ?? 'https://expressjssql.vercel.app/');
 
 const Bio = db.bio;
 const Op = db.modSequelize.Op;
