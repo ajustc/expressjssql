@@ -1,6 +1,7 @@
 const dbConfig = require("../../config/db.js");
 
 const modSequelize = require("sequelize");
+const mysql2 = require("mysql2");
 const sequelize = new modSequelize(
   dbConfig.DB,
   dbConfig.USER,
@@ -8,6 +9,7 @@ const sequelize = new modSequelize(
   {
     host: dbConfig.HOST,
     dialect: dbConfig.dialect,
+    dialectModule: mysql2,
     operatosAliases: false,
 
     define: {
